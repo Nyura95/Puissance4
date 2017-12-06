@@ -1,0 +1,58 @@
+table{
+  border: 1px black outset;
+  /*background-color: blue;*/
+  background: -webkit-linear-gradient(#42a1ec,#0070f9);
+  background: linear-gradient(#42a1ec,#0070f9);
+}
+.salle{
+  margin-left: 25%;
+  /*background-image: url('j.jpg');*/
+}
+.structure{
+  width: 732px;
+}
+.piedgauche{
+  border: 1px solid black;
+  background: -webkit-linear-gradient(#42a1ec,#0070f9);
+  background: linear-gradient(#42a1ec,#0070f9);
+  height: 90px;
+  width: 30px;
+  float: left;
+}
+.pieddroit{
+  border: 1px solid black;
+  background: -webkit-linear-gradient(#42a1ec,#0070f9);
+  background: linear-gradient(#42a1ec,#0070f9);
+  height: 90px;
+  width: 30px;
+  float: right;
+}
+.button{
+  text-align: center;
+  margin-top: 60px;
+  margin-left: 240px;
+  width: 200px;
+  height: 30px;
+  background: -webkit-linear-gradient(#42a1ec,#0070f9);
+  background: linear-gradient(#42a1ec,#0070f9);
+  border-radius: 5px;
+}
+td{
+  border-radius: 50px;
+  height: 100px;
+  width: 100px;
+  background: white;
+}
+  #plateau td.joueur1 {
+      background-color: red;
+  }
+  #plateau td.joueur2 {
+      background-color: yellow;
+  }
+
+  #plateau td.joueur1b {
+      background-color: blue;
+  }
+  #plateau td.joueur2b {
+      background-color: blue;
+  }
