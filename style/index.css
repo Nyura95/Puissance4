@@ -44,7 +44,7 @@ td{
   background: white;
 }
   #plateau td.joueur1 {
-      background-color: red;
+      background-color: green;
   }
   #plateau td.joueur2 {
       background-color: yellow;
@@ -56,3 +56,19 @@ td{
   #plateau td.joueur2b {
       background-color: blue;
   }
+
+  #msgInfo {
+      font-family:arial;
+      font-size:1em;
+      text-transform: uppercase; 
+      color: blue;
+      font-weight:bold;
+      font-family:arial;
+    
+  }
+
+
+canvas {
+	cursor: crosshair;
+	display: block;
+}

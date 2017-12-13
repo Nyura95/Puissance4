@@ -7,7 +7,9 @@
 
 <body>
 	<div class="salle">
-		<p id="msgInfo" style="font-family:arial;font-size:1em;text-transform: uppercase; color: blue;font-weight:bold;font-family:arial;"></p>
+		<p id="msgInfo"></p> 
+                <canvas id="canvas"></canvas> 
+                <!-- J'ai pas reussis à mettre les feux d'artifices uniquement aux gagnants--> 
 		<div id="jeu"></div>
 		<div class="structure">
 			<div class="piedgauche"></div>
@@ -15,6 +17,10 @@
 		</div>
 	</div>
 	<input type="button" value="recommencer" class="button " id="Reset" />
+        <input type="button" value="Nouveau joueur" class="button " id="joueurs" />
+       
+        
+       
 </body>
 
 </html>
@@ -23,3 +29,4 @@
 <script src="class/grille.js"></script>
 <script src="class/joueur.js"></script>
 <script src="class/bouton.js"></script>
+<script src="class/fireworks.js"> </script> 

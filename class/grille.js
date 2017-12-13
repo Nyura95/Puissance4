@@ -10,7 +10,7 @@ Grille.prototype.init = function(jeu, parent) {
   for (var i = jeu.getLig() - 1; i >= 0; i--) {
     var tr = document.createElement('tr')
     plateau[i] = []
-    for (var j = 0; j < jeu.getCol(); j++) {
+    for (var j = -1; j < jeu.getCol(); j++) {
       var td = document.createElement('td')
       td.dataset.column = j
       tr.appendChild(td)

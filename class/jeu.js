@@ -16,11 +16,11 @@ function Jeu(jeu) {
   let mesJoueurs = [
     {
       id: 1,
-      name: 'Alexis',
+      name: 'Lola',
     },
     {
       id: 2,
-      name: 'Lola',
+      name: 'Alexis',
     },
   ]
 
@@ -99,13 +99,15 @@ Jeu.prototype.jouer = function(colonne) {
   //Si la partie est finie, un message s'affiche en fonction du statuts du jeu, nul ou gagné par un joueur
   switch (this.statusDuJeu) {
     case -1:
-      document.getElementById('msgInfo').innerHTML = 'Partie Nulle!'
-      break
+         document.getElementById('msgInfo').innerHTML = 'Partie Nulle!'
+       
     case 1:
-      document.getElementById('msgInfo').innerHTML = 'Le joueur 1 a gagné'
+      document.getElementById('msgInfo').innerHTML = 'Lola vous avez gagné' 
+      document.getElementById('canvas')
       break
     case 2:
-      document.getElementById('msgInfo').innerHTML = 'Le joueur 2 a gagné'
+       document.getElementById('msgInfo').innerHTML = 'Alexis vous avez gagné'
+       document.getElementById('canvas')
       break
   }
 }
